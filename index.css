@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .hed-title h3{
     color: #181818;
@@ -44,4 +45,21 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* banner */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-text{
+
+}
+.banner-mager{}
+.banner-mager img{
+    width: 500px;
+    background-image: url('./images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
