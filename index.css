@@ -5,6 +5,9 @@ body{
 
 .header-section{
     background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-position: bottom right , top left;
+    background-repeat: no-repeat;
 }
 .hed-title{
     display: flex;
@@ -52,14 +55,49 @@ body{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner-text{
+    max-width: 600px;
+}
+.banner-text h3{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-text h1{
+    font-size: 85px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.banner-text p{
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 15px;
 
 }
 .banner-mager{}
 .banner-mager img{
     width: 500px;
-    background-image: url('./images/header_bg.png');
-    background-position: bottom right;
-    background-repeat: no-repeat;
+
 }
+
+/* main-class */
+
+/* about-section */
+.about-section{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 250px;
+}
+.about-text{
+    text-align: center;
+}
+.about-text h3{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-text p{}
